@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="15.561">
+    <testcase classname="Book the hotel" name="Validate the Login functionality" time="15.306">
+        <failure message="C:\Users\Dell\eclipse-workspace\selenium2022\Intranet_Time_sheet\addactin.properties (The system cannot find the path specified)" type="java.io.FileNotFoundException"><![CDATA[Given login into "https://adactinhotelapp.com/".............................passed
+When Enter the credentials "HemamaliniG1827" and "Tquniv@$1827".............passed
+Given In search hotel Enter the deatils "Location" and "Hotels" and "Room_Type" and "Number_of_rooms" and "Check_In_Date" and "Check_out_date" and "Adults_per_room" "Children_per_room".failed
+When Take a screenshot of landing page......................................skipped
+
+StackTrace:
+java.io.FileNotFoundException: C:\Users\Dell\eclipse-workspace\selenium2022\Intranet_Time_sheet\addactin.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at utility.Utility.read_property_file(Utility.java:66)
+	at stepdefenition.Stepdef.in_search_hotel_enter_the_deatils_and_and_and_and_and_and(Stepdef.java:50)
+	at ✽.In search hotel Enter the deatils "Location" and "Hotels" and "Room_Type" and "Number_of_rooms" and "Check_In_Date" and "Check_out_date" and "Adults_per_room" "Children_per_room"(file:///C:/Users/WELCOME/Downloads/Intranet_Time_sheet/src/test/resources/Features/intranet.feature:8)
+]]></failure>
+    </testcase>
+</testsuite>

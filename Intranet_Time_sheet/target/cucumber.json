@@ -1,0 +1,127 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-07-04T10:21:12.632Z",
+        "line": 14,
+        "name": "Validate the Login functionality",
+        "description": "",
+        "id": "book-the-hotel;validate-the-login-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13952368000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "login into \"https://adactinhotelapp.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://adactinhotelapp.com/\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefenition.Stepdef.login_into(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1319812300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter the credentials \"HemamaliniG1827\" and \"Tquniv@$1827\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"HemamaliniG1827\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Tquniv@$1827\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepdefenition.Stepdef.enter_the_credentials_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.io.FileNotFoundException: C:\\Users\\Dell\\eclipse-workspace\\selenium2022\\Intranet_Time_sheet\\addactin.properties (The system cannot find the path specified)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:216)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:157)\r\n\tat utility.Utility.read_property_file(Utility.java:66)\r\n\tat stepdefenition.Stepdef.in_search_hotel_enter_the_deatils_and_and_and_and_and_and(Stepdef.java:50)\r\n\tat ✽.In search hotel Enter the deatils \"Location\" and \"Hotels\" and \"Room_Type\" and \"Number_of_rooms\" and \"Check_In_Date\" and \"Check_out_date\" and \"Adults_per_room\" \"Children_per_room\"(file:///C:/Users/WELCOME/Downloads/Intranet_Time_sheet/src/test/resources/Features/intranet.feature:8)\r\n",
+              "duration": 4990500,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "In search hotel Enter the deatils \"Location\" and \"Hotels\" and \"Room_Type\" and \"Number_of_rooms\" and \"Check_In_Date\" and \"Check_out_date\" and \"Adults_per_room\" \"Children_per_room\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Location\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"Hotels\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"Room_Type\"",
+                  "offset": 62
+                },
+                {
+                  "val": "\"Number_of_rooms\"",
+                  "offset": 78
+                },
+                {
+                  "val": "\"Check_In_Date\"",
+                  "offset": 100
+                },
+                {
+                  "val": "\"Check_out_date\"",
+                  "offset": 120
+                },
+                {
+                  "val": "\"Adults_per_room\"",
+                  "offset": 141
+                },
+                {
+                  "val": "\"Children_per_room\"",
+                  "offset": 159
+                }
+              ],
+              "location": "stepdefenition.Stepdef.in_search_hotel_enter_the_deatils_and_and_and_and_and_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Take a screenshot of landing page",
+            "match": {
+              "location": "stepdefenition.Stepdef.take_a_screenshot_of_landing_page()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Book the hotel",
+    "description": "",
+    "id": "book-the-hotel",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/intranet.feature",
+    "tags": []
+  }
+]
